@@ -1,0 +1,3 @@
+/home/mauske/Studium/4_Semester/Linux/Praktikum3/build/CMakeFiles/rebuild_cache.dir
+/home/mauske/Studium/4_Semester/Linux/Praktikum3/build/CMakeFiles/hello_world.dir
+/home/mauske/Studium/4_Semester/Linux/Praktikum3/build/CMakeFiles/edit_cache.dir

@@ -16,6 +16,7 @@ $(NAME).pdf: $(NAME).tex $(NAME).bib
 	$(MAKE) comp
 	bibtex $(NAME)
 	$(MAKE) comp
-	$(MAKE) comp
-#|| (echo "compiling again due to error"; $(MAKE) comp)
+	if grep -q 'LaTeX Warning: There were undefined references.' $(NAME).log; \
+	then $(MAKE) comp; \
+	fi
 
